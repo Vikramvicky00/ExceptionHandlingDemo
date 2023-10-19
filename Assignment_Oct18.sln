@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{879639EB-0167-43FC-A939-BBDDFC79C363}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B0AA98A-ED72-408D-8AC1-8064A47120E6} = {6B0AA98A-ED72-408D-8AC1-8064A47120E6}
+		{F1BF3579-4382-4684-A0AC-89550C9B6048} = {F1BF3579-4382-4684-A0AC-89550C9B6048}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLib", "EmployeeLib\EmployeeLib.csproj", "{6B0AA98A-ED72-408D-8AC1-8064A47120E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLib", "MovieLib\MovieLib.csproj", "{F1BF3579-4382-4684-A0AC-89550C9B6048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879639EB-0167-43FC-A939-BBDDFC79C363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879639EB-0167-43FC-A939-BBDDFC79C363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879639EB-0167-43FC-A939-BBDDFC79C363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879639EB-0167-43FC-A939-BBDDFC79C363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0AA98A-ED72-408D-8AC1-8064A47120E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0AA98A-ED72-408D-8AC1-8064A47120E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0AA98A-ED72-408D-8AC1-8064A47120E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0AA98A-ED72-408D-8AC1-8064A47120E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BF3579-4382-4684-A0AC-89550C9B6048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BF3579-4382-4684-A0AC-89550C9B6048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BF3579-4382-4684-A0AC-89550C9B6048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BF3579-4382-4684-A0AC-89550C9B6048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05780CDF-1414-46A4-9CA2-44DDB069BE06}
+	EndGlobalSection
+EndGlobal
