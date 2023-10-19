@@ -8,8 +8,8 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
-			try
-			{
+	  try
+	    {
                 //List<Movie> MovieList = new List<Movie>();
                 List<Customer> DueList = new List<Customer>();
                 List<Customer> customerList = new List<Customer>();
